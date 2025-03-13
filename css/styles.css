@@ -243,7 +243,6 @@ overflow: hidden;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    padding: 24px 0;
     margin-bottom: 8px;
     height: 112px;
 }
@@ -452,6 +451,9 @@ overflow: hidden;
     color: white;
     margin-bottom: 16px;
 }
+.footer-icon{
+    fill: #f4f4fd;
+}
 .footer-icon-wrapper{
     display: flex;
     justify-content: center;
@@ -496,10 +498,6 @@ overflow: hidden;
     gap: 24px;
 }
 
-.footer-label {
-    // Add any necessary styles for the label
-}
-
 .footer-input {
     width: 264px;
     height: 40px;
@@ -534,6 +532,10 @@ overflow: hidden;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-submit-button:hover,
+.footer-submit-button:focus {    background-color: #404bbf;
 }
 
 .footer-icon {
@@ -724,6 +726,7 @@ button[type="submit"] {
     margin: 0 auto;
 }
 .submit-button {
+    border-radius: 4px;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -737,6 +740,11 @@ button[type="submit"] {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: #404bbf;
 }
 
 /* Styles for devices between 768px and 1158px */
@@ -825,11 +833,3 @@ button[type="submit"] {
    
 }
 
-/*
-CORNFLOWER #E7E9FC
-CLOUD #F4F4FD
-#404BBF 
-NAVYBLUE #2E2F42
-SLATE #434455
-IRIS #4D5AE5
-*/
