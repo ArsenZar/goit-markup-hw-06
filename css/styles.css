@@ -542,6 +542,7 @@ overflow: hidden;
     margin-left: 16px;
 }
 
+
 /* modal-menu */
 .modal-menu{
     position: fixed;
@@ -558,6 +559,10 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.modal-menu {
+    display: none;
 }
 .modal-menu-list{
     display: flex;
@@ -618,7 +623,7 @@ overflow: hidden;
     display: flex;
     gap: 40px;
 }
-..modal-menu-icon-wrapper-li
+.modal-menu-icon-wrapper-li
 .modal-menu-icon-wrapper-li{
     width: 40px;
     height: 40px;
@@ -842,7 +847,7 @@ button[type="submit"] {
 }
 
 
-
+/*
 @media (min-width: 0px) and (max-width: 768px){
     .menu-icon {
         display: block;
@@ -949,9 +954,11 @@ button[type="submit"] {
     }
 
 }
-
+*/
 /* Styles for devices between 768px and 1158px */
+/*
 @media (min-width: 768px) and (max-width: 1158px) {
+
     .modal-menu {
         display: none;
     }
@@ -959,14 +966,16 @@ button[type="submit"] {
         margin-right: 0px;
     }
     /* header*/
+/*
    .contact-list{
     flex-direction: column;
    }
    .navigation{
     width: 65%;
    }
-
+*/
    /* advantages */
+/*
    .advantages-item-icon{
     display: none;
    }
@@ -981,8 +990,9 @@ button[type="submit"] {
    .advantages{
     padding: 96px 0;
    }
-
+*/
    /* team */
+/*
    .team-list{
     flex-wrap: wrap;
     justify-content: center;
@@ -995,8 +1005,9 @@ button[type="submit"] {
    .team{
     padding: 96px 0;
    }
-
+*/
    /* portfolio */
+/*
    .portfolio{
     padding: 96px 0;
    }
@@ -1006,8 +1017,9 @@ button[type="submit"] {
    .portfolio-item{
     width: calc((100% - 24px) / 2);
    }
-
+*/
    /* footer */
+/*
    .bottom-footer{
     padding: 96px 108px;
    }
@@ -1038,4 +1050,4 @@ button[type="submit"] {
    }
    
 }
-
+*/
