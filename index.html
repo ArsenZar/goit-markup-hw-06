@@ -465,6 +465,11 @@
     const modalContainer = document.querySelector(".modal-container");
     const openModalContainer = document.querySelector(".solutions-button");
     const closeModalContainer = document.querySelector(".close-button");
+
+    modalContainer.addEventListener("click", (e) => {
+        e.target.classList.value === "modal-container is-open" ? modalContainer.classList.remove("is-open") : null;
+        console.log(e.target.classList.value);
+    });
   
     openModalMenu.addEventListener("click", () => {
         modalMenu.classList.add("is-open");
@@ -481,6 +486,8 @@
     closeModalContainer.addEventListener("click", () => {
         modalContainer.classList.remove("is-open");
     });
+
+
 
     
 </script>
