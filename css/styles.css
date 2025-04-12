@@ -893,6 +893,15 @@ button[type="submit"] {
     
 }
 
+@media screen and (min-resolution: 2x) {
+    .solutions {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+            ),
+        url("../images/people-office-mob2x.jpg");
+    }
+}
 
 @media (min-width: 768px) {
     .solutions {
@@ -901,6 +910,16 @@ button[type="submit"] {
             rgba(46, 47, 66, 0.7)
         ),
         url("../images/people-office-tab.jpg");
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .solutions {
+            background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+                ),
+            url("../images/people-office-tab2x.jpg");
+        }
     }
 }
 
@@ -911,6 +930,15 @@ button[type="submit"] {
             rgba(46, 47, 66, 0.7)
         ),
         url("../images/people-office.jpg");
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .solutions {
+            background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office2x.jpg");
+        }
     }
 }
 
