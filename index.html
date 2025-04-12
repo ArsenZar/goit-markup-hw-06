@@ -339,7 +339,7 @@
         </div>
     </footer>
 
-    <div class="modal-menu is-open">
+    <div class="modal-menu">
         <button type="button" class="closeMenu-button">
             <svg class="icon" width="8" height="8">
                 <use href="./images/icons.svg#close"></use>
@@ -457,3 +457,30 @@
 </body>
 </html>
 
+<script>
+    const modalMenu = document.querySelector(".modal-menu");
+    const closeModalMenu = document.querySelector(".closeMenu-button");
+    const openModalMenu = document.querySelector(".menu-icon");
+
+    const modalContainer = document.querySelector(".modal-container");
+    const openModalContainer = document.querySelector(".solutions-button");
+    const closeModalContainer = document.querySelector(".close-button");
+  
+    openModalMenu.addEventListener("click", () => {
+        modalMenu.classList.add("is-open");
+    });
+
+    closeModalMenu.addEventListener("click", () => {
+        modalMenu.classList.remove("is-open");
+    });
+
+    openModalContainer.addEventListener("click", () => {
+        modalContainer.classList.add("is-open");
+    });
+
+    closeModalContainer.addEventListener("click", () => {
+        modalContainer.classList.remove("is-open");
+    });
+
+    
+</script>
